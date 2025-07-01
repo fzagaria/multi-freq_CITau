@@ -1,0 +1,1102 @@
+fz258@calx061$ cd /data/discsim2/fz258/scienceB3_calibration/
+fz258@calx061$ ./../casa/casa-6.4.3-27/bin/casa
+
+optional configuration file config.py not found, continuing CASA startup without it
+
+IPython 7.15.0 -- An enhanced Interactive Python.
+
+Using matplotlib backend: TkAgg
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+--> CrashReporter initialized.
+CASA 6.4.3.27 -- Common Astronomy Software Applications [6.4.3.27]
+
+CASA <1>: execfile('selfcal_init.py')                                           
+pytz is not available in this python (used by au.mjdToLocalTime)
+imported casatasks and casatools individually
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+2022-10-19 19:05:42	WARN	MSTransformManager::checkCorrelatorPreaveragingThe data has already been preaveraged by the correlator but further smoothing or averaging has been requested. Preaveraged SPWs are: 23 25 27 29 
+#Averaged continuum dataset saved to CI_Tau_SB_EB0_initcont.ms
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+#Averaged continuum dataset saved to CI_Tau_LB_EB0_initcont.ms
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+#Averaged continuum dataset saved to CI_Tau_LB_EB1_initcont.ms
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_p0.image.tt0
+#Beam 0.095 arcsec x 0.058 arcsec (16.71 deg)
+#Flux inside disk mask: 16.47 mJy
+#Peak intensity of source: 1.13 mJy/beam
+#rms: 1.14e-02 mJy/beam
+#Peak SNR: 98.81
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_initcont_p1.image.tt0
+#Beam 0.095 arcsec x 0.058 arcsec (16.71 deg)
+#Flux inside disk mask: 16.66 mJy
+#Peak intensity of source: 1.14 mJy/beam
+#rms: 1.13e-02 mJy/beam
+#Peak SNR: 100.90
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_p0.image.tt0
+#Beam 0.075 arcsec x 0.052 arcsec (-11.36 deg)
+#Flux inside disk mask: 16.97 mJy
+#Peak intensity of source: 0.89 mJy/beam
+#rms: 9.18e-03 mJy/beam
+#Peak SNR: 97.11
+4 of 82 solutions flagged due to SNR < 4 in spw=0 at 2019/07/04/14:56:32.3
+6 of 88 solutions flagged due to SNR < 4 in spw=1 at 2019/07/04/14:56:30.3
+2 of 86 solutions flagged due to SNR < 4 in spw=2 at 2019/07/04/14:56:40.8
+1 of 88 solutions flagged due to SNR < 4 in spw=3 at 2019/07/04/14:56:44.3
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_initcont_p1.image.tt0
+#Beam 0.075 arcsec x 0.052 arcsec (-11.36 deg)
+#Flux inside disk mask: 17.00 mJy
+#Peak intensity of source: 0.90 mJy/beam
+#rms: 9.14e-03 mJy/beam
+#Peak SNR: 98.82
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_p0.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.04 mJy
+#Peak intensity of source: 4.83 mJy/beam
+#rms: 1.47e-02 mJy/beam
+#Peak SNR: 327.89
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p1.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.05 mJy
+#Peak intensity of source: 4.83 mJy/beam
+#rms: 1.44e-02 mJy/beam
+#Peak SNR: 335.56
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p2.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.05 mJy
+#Peak intensity of source: 5.02 mJy/beam
+#rms: 1.22e-02 mJy/beam
+#Peak SNR: 410.46
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:21.4
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p3.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.06 mJy
+#Peak intensity of source: 5.04 mJy/beam
+#rms: 1.22e-02 mJy/beam
+#Peak SNR: 412.58
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:50.6
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:21.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:14.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:53.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:38.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p4.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.06 mJy
+#Peak intensity of source: 5.05 mJy/beam
+#rms: 1.22e-02 mJy/beam
+#Peak SNR: 414.74
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:03.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:33.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:03.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:33.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:04.7
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:34.9
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:05.1
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:37.1
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:07.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:37.6
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:07.8
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:38.1
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:38.5
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:46:05.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:03.2
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:21.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:48:57.9
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:49:58.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:28.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:58.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:29.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:59.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:29.6
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:59.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:54:32.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:02.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:32.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:56:33.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:03.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:57.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:58:28.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:00:17.2
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:17.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:47.9
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:02:48.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:03:18.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:19.1
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:49.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:05:51.6
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:21.8
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:52.0
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:22.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:52.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:22.8
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:50.0
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:17.2
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:47.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:11:36.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:12:06.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:13:37.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:07.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:37.6
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:07.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:38.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:08.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:40.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:10.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:40.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:11.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:38.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p5.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.06 mJy
+#Peak intensity of source: 5.06 mJy/beam
+#rms: 1.21e-02 mJy/beam
+#Peak SNR: 417.08
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:37:42.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:37:57.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:12.3
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:27.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:42.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:38:57.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:12.8
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:27.9
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:43.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:39:58.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:40:13.2
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:40:28.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:40:43.5
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:40:58.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:13.7
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:28.8
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:44.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:41:59.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:14.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:28.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:43.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:42:58.3
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:13.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:28.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:43.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:43:58.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:13.9
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:29.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:44.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:44:59.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:14.4
+5 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:29.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:44.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:45:59.7
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:46:11.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:46:26.9
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:46:42.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:46:57.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:12.3
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:47:21.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:48:51.9
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:49:07.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:49:22.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:49:37.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:49:52.4
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:07.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:22.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:37.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:50:52.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:08.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:23.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:38.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:51:53.3
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:08.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:23.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:38.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:52:53.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:53:08.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:53:24.0
+5 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:53:40.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:53:53.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:54:08.1
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:54:23.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:54:38.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:54:53.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:08.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:23.7
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:38.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:55:54.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:56:09.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:56:24.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:56:39.3
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:56:54.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:09.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:24.7
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:36.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:57:51.9
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:58:07.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:58:22.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/11:58:37.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:00:11.1
+5 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:00:26.3
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:00:41.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:00:56.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:11.6
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:26.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:41.9
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:01:57.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:02:12.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:02:27.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:02:42.3
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:02:57.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:03:12.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:03:27.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:03:42.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:03:57.9
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:13.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:28.2
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:43.3
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:04:59.3
+5 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:05:12.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:05:27.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:05:42.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:05:57.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:12.7
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:27.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:43.0
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:06:58.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:13.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:28.3
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:43.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:07:58.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:13.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:28.8
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:43.9
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:08:56.0
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:11.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:26.3
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:41.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:09:56.5
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:11:30.1
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:11:45.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:12:00.3
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:12:15.5
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:12:30.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:12:45.7
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:13:15.9
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:13:31.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:13:46.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:01.3
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:16.4
+1 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:31.5
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:14:46.7
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:01.8
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:16.9
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:32.0
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:15:47.1
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:02.3
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:18.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:31.2
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:16:46.3
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:01.4
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:16.6
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:31.7
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:17:46.8
+4 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:01.9
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:17.0
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:32.2
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2021/07/03/12:18:44.3
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p6.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.07 mJy
+#Peak intensity of source: 5.07 mJy/beam
+#rms: 1.21e-02 mJy/beam
+#Peak SNR: 418.50
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_p6.image.tt0
+#Beam 0.546 arcsec x 0.354 arcsec (49.36 deg)
+#Flux inside disk mask: 16.05 mJy
+#Peak intensity of source: 5.08 mJy/beam
+#rms: 1.19e-02 mJy/beam
+#Peak SNR: 427.25
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_initcont_ap0.image.tt0
+#Beam 0.544 arcsec x 0.353 arcsec (48.76 deg)
+#Flux inside disk mask: 16.03 mJy
+#Peak intensity of source: 5.06 mJy/beam
+#rms: 1.19e-02 mJy/beam
+#Peak SNR: 426.07
+04h33m52.028170s +22d50m29.72218s
+#Peak of Gaussian component identified with imfit: ICRS 04h33m52.028170s +22d50m29.72218s
+04:33:52.028170 +22:50:29.72218
+Separation: radian = 7.2873e-08, degrees = 0.000004 = 4.17531e-06, arcsec = 0.015031 = 0.0150311
+#Peak in J2000 coordinates: 04:33:52.02878, +022:50:29.709737
+#PA of Gaussian component: 13.58 deg
+#Inclination of Gaussian component: 46.91 deg
+#Pixel coordinates of peak: x = 250.025 y = 249.912
+04h33m52.027189s +22d50m29.76076s
+#Peak of Gaussian component identified with imfit: ICRS 04h33m52.027189s +22d50m29.76076s
+04:33:52.027189 +22:50:29.76076
+Separation: radian = 7.29066e-08, degrees = 0.000004 = 4.17724e-06, arcsec = 0.015038 = 0.0150381
+#Peak in J2000 coordinates: 04:33:52.02780, +022:50:29.748318
+#PA of Gaussian component: 17.42 deg
+#Inclination of Gaussian component: 45.44 deg
+#Pixel coordinates of peak: x = 1199.367 y = 1200.061
+04h33m52.027368s +22d50m29.76229s
+#Peak of Gaussian component identified with imfit: ICRS 04h33m52.027368s +22d50m29.76229s
+04:33:52.027368 +22:50:29.76229
+Separation: radian = 7.29442e-08, degrees = 0.000004 = 4.1794e-06, arcsec = 0.015046 = 0.0150458
+#Peak in J2000 coordinates: 04:33:52.02798, +022:50:29.749848
+#PA of Gaussian component: 27.56 deg
+#Inclination of Gaussian component: 53.89 deg
+#Pixel coordinates of peak: x = 1198.924 y = 1200.418
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_SB_EB0_initcont_cent.ms.image.tt0
+#Beam 0.544 arcsec x 0.353 arcsec (48.76 deg)
+#Flux inside disk mask: 16.02 mJy
+#Peak intensity of source: 5.06 mJy/beam
+#rms: 1.15e-02 mJy/beam
+#Peak SNR: 440.69
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_initcont_cent.ms.image.tt0
+#Beam 0.095 arcsec x 0.058 arcsec (16.71 deg)
+#Flux inside disk mask: 16.51 mJy
+#Peak intensity of source: 1.14 mJy/beam
+#rms: 1.13e-02 mJy/beam
+#Peak SNR: 101.09
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_initcont_cent.ms.image.tt0
+#Beam 0.075 arcsec x 0.052 arcsec (-11.36 deg)
+#Flux inside disk mask: 17.00 mJy
+#Peak intensity of source: 0.90 mJy/beam
+#rms: 9.10e-03 mJy/beam
+#Peak SNR: 99.37
+04h33m52.027800s +22d50m29.74837s
+#Peak of Gaussian component identified with imfit: J2000 04h33m52.027800s +22d50m29.74837s
+#PA of Gaussian component: 10.51 deg
+#Inclination of Gaussian component: 48.47 deg
+#Pixel coordinates of peak: x = 250.000 y = 250.001
+04h33m52.027791s +22d50m29.74814s
+#Peak of Gaussian component identified with imfit: J2000 04h33m52.027791s +22d50m29.74814s
+#PA of Gaussian component: 16.05 deg
+#Inclination of Gaussian component: 45.93 deg
+#Pixel coordinates of peak: x = 1200.023 y = 1199.966
+04h33m52.027796s +22d50m29.74826s
+#Peak of Gaussian component identified with imfit: J2000 04h33m52.027796s +22d50m29.74826s
+#PA of Gaussian component: 26.46 deg
+#Inclination of Gaussian component: 52.83 deg
+#Pixel coordinates of peak: x = 1200.009 y = 1199.989
+  Closest Band 3 measurement: 1.220 +- 0.030 (age=-4 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 1.320 +- 0.030 (age=-4 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 0.590 +- 0.060 (age=-3 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age -3.5 days from 2021/07/03, with age separation of 1 days
+  2021/07/07 -- 2021/07/08: freqs=[103.5, 91.47, 343.48], fluxes=[1.22, 1.32, 0.59], errors=[0.03, 0.03, 0.06]
+Median Monte-Carlo result for 90.508000 = 1.326135 +- 0.024086 (scaled MAD = 0.023889)
+Result using spectral index of -0.609814 for 90.508 GHz from 1.270 Jy at 97.485 GHz = 1.328834 +- 0.024086 Jy
+  Closest Band 3 measurement: 1.220 +- 0.030 (age=-4 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 1.320 +- 0.030 (age=-4 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 0.590 +- 0.060 (age=-3 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age -3.5 days from 2021/07/03, with age separation of 1 days
+  2021/07/07 -- 2021/07/08: freqs=[103.5, 91.47, 343.48], fluxes=[1.22, 1.32, 0.59], errors=[0.03, 0.03, 0.06]
+Median Monte-Carlo result for 92.500000 = 1.308313 +- 0.023086 (scaled MAD = 0.023006)
+Result using spectral index of -0.609814 for 92.500 GHz from 1.270 Jy at 97.485 GHz = 1.311309 +- 0.023086 Jy
+  Closest Band 3 measurement: 1.220 +- 0.030 (age=-4 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 1.320 +- 0.030 (age=-4 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 0.590 +- 0.060 (age=-3 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age -3.5 days from 2021/07/03, with age separation of 1 days
+  2021/07/07 -- 2021/07/08: freqs=[103.5, 91.47, 343.48], fluxes=[1.22, 1.32, 0.59], errors=[0.03, 0.03, 0.06]
+Median Monte-Carlo result for 102.612000 = 1.228528 +- 0.020344 (scaled MAD = 0.020146)
+Result using spectral index of -0.609814 for 102.612 GHz from 1.270 Jy at 97.485 GHz = 1.230918 +- 0.020344 Jy
+  Closest Band 3 measurement: 1.220 +- 0.030 (age=-4 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 1.320 +- 0.030 (age=-4 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 0.590 +- 0.060 (age=-3 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age -3.5 days from 2021/07/03, with age separation of 1 days
+  2021/07/07 -- 2021/07/08: freqs=[103.5, 91.47, 343.48], fluxes=[1.22, 1.32, 0.59], errors=[0.03, 0.03, 0.06]
+Median Monte-Carlo result for 104.500000 = 1.215333 +- 0.020504 (scaled MAD = 0.020518)
+Result using spectral index of -0.609814 for 104.500 GHz from 1.270 Jy at 97.485 GHz = 1.217308 +- 0.020504 Jy
+  Closest Band 3 measurement: 3.970 +- 0.070 (age=+5 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 4.240 +- 0.080 (age=+5 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 2.030 +- 0.050 (age=+5 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +5.0 days from 2019/06/27, with age separation of 0 days
+  2019/06/22: freqs=[103.49, 91.46, 343.48], fluxes=[3.97, 4.24, 2.03], errors=[0.07, 0.08, 0.05]
+Median Monte-Carlo result for 90.519000 = 4.272606 +- 0.057852 (scaled MAD = 0.057823)
+Result using spectral index of -0.557601 for 90.519 GHz from 4.105 Jy at 97.475 GHz = 4.278012 +- 0.057852 Jy
+  Closest Band 3 measurement: 3.970 +- 0.070 (age=+5 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 4.240 +- 0.080 (age=+5 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 2.030 +- 0.050 (age=+5 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +5.0 days from 2019/06/27, with age separation of 0 days
+  2019/06/22: freqs=[103.49, 91.46, 343.48], fluxes=[3.97, 4.24, 2.03], errors=[0.07, 0.08, 0.05]
+Median Monte-Carlo result for 92.503000 = 4.220114 +- 0.056321 (scaled MAD = 0.057143)
+Result using spectral index of -0.557601 for 92.503 GHz from 4.105 Jy at 97.475 GHz = 4.226604 +- 0.056321 Jy
+  Closest Band 3 measurement: 3.970 +- 0.070 (age=+5 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 4.240 +- 0.080 (age=+5 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 2.030 +- 0.050 (age=+5 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +5.0 days from 2019/06/27, with age separation of 0 days
+  2019/06/22: freqs=[103.49, 91.46, 343.48], fluxes=[3.97, 4.24, 2.03], errors=[0.07, 0.08, 0.05]
+Median Monte-Carlo result for 102.586000 = 3.983518 +- 0.049442 (scaled MAD = 0.049835)
+Result using spectral index of -0.557601 for 102.586 GHz from 4.105 Jy at 97.475 GHz = 3.989673 +- 0.049442 Jy
+  Closest Band 3 measurement: 3.970 +- 0.070 (age=+5 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 4.240 +- 0.080 (age=+5 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 2.030 +- 0.050 (age=+5 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +5.0 days from 2019/06/27, with age separation of 0 days
+  2019/06/22: freqs=[103.49, 91.46, 343.48], fluxes=[3.97, 4.24, 2.03], errors=[0.07, 0.08, 0.05]
+Median Monte-Carlo result for 104.503000 = 3.942356 +- 0.047585 (scaled MAD = 0.048065)
+Result using spectral index of -0.557601 for 104.503 GHz from 4.105 Jy at 97.475 GHz = 3.948697 +- 0.047585 Jy
+  Closest Band 3 measurement: 2.640 +- 0.040 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.840 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.820 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.630 +- 0.050 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.340 +- 0.040 (age=+0 days) 343.5 GHz 
+  Closest Band 7 measurement: 1.290 +- 0.040 (age=+0 days) 343.5 GHz 
+number of measurements used in low/high bands = 4 / 2
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +0.0 days from 2019/07/04, with age separation of 0 days
+  2019/07/04: freqs=[103.49, 91.46, 91.46, 103.49, 343.48], fluxes=[2.64, 2.84, 2.82, 2.63, 1.34], errors=[0.04, 0.06, 0.06, 0.05, 0.04]
+Median Monte-Carlo result for 90.520000 = 2.844663 +- 0.029185 (scaled MAD = 0.029497)
+Result using spectral index of -0.564681 for 90.520 GHz from 2.732 Jy at 97.475 GHz = 2.849141 +- 0.029185 Jy
+  Closest Band 3 measurement: 2.640 +- 0.040 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.840 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.820 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.630 +- 0.050 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.340 +- 0.040 (age=+0 days) 343.5 GHz 
+  Closest Band 7 measurement: 1.290 +- 0.040 (age=+0 days) 343.5 GHz 
+number of measurements used in low/high bands = 4 / 2
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +0.0 days from 2019/07/04, with age separation of 0 days
+  2019/07/04: freqs=[103.49, 91.46, 91.46, 103.49, 343.48], fluxes=[2.64, 2.84, 2.82, 2.63, 1.34], errors=[0.04, 0.06, 0.06, 0.05, 0.04]
+Median Monte-Carlo result for 92.504000 = 2.810247 +- 0.028010 (scaled MAD = 0.027547)
+Result using spectral index of -0.564681 for 92.504 GHz from 2.732 Jy at 97.475 GHz = 2.814472 +- 0.028010 Jy
+  Closest Band 3 measurement: 2.640 +- 0.040 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.840 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.820 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.630 +- 0.050 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.340 +- 0.040 (age=+0 days) 343.5 GHz 
+  Closest Band 7 measurement: 1.290 +- 0.040 (age=+0 days) 343.5 GHz 
+number of measurements used in low/high bands = 4 / 2
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +0.0 days from 2019/07/04, with age separation of 0 days
+  2019/07/04: freqs=[103.49, 91.46, 91.46, 103.49, 343.48], fluxes=[2.64, 2.84, 2.82, 2.63, 1.34], errors=[0.04, 0.06, 0.06, 0.05, 0.04]
+Median Monte-Carlo result for 102.587000 = 2.650195 +- 0.024170 (scaled MAD = 0.023941)
+Result using spectral index of -0.564681 for 102.587 GHz from 2.732 Jy at 97.475 GHz = 2.654757 +- 0.024170 Jy
+  Closest Band 3 measurement: 2.640 +- 0.040 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.840 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.820 +- 0.060 (age=+0 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.630 +- 0.050 (age=+0 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.340 +- 0.040 (age=+0 days) 343.5 GHz 
+  Closest Band 7 measurement: 1.290 +- 0.040 (age=+0 days) 343.5 GHz 
+number of measurements used in low/high bands = 4 / 2
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +0.0 days from 2019/07/04, with age separation of 0 days
+  2019/07/04: freqs=[103.49, 91.46, 91.46, 103.49, 343.48], fluxes=[2.64, 2.84, 2.82, 2.63, 1.34], errors=[0.04, 0.06, 0.06, 0.05, 0.04]
+Median Monte-Carlo result for 104.504000 = 2.623477 +- 0.023543 (scaled MAD = 0.023590)
+Result using spectral index of -0.564681 for 104.504 GHz from 2.732 Jy at 97.475 GHz = 2.627147 +- 0.023543 Jy
+2022-10-20 01:54:55	WARN	MSTransformManager::checkCorrelatorPreaveragingThe data has already been preaveraged by the correlator but further smoothing or averaging has been requested. Preaveraged SPWs are: 0 1 2 3 
+#Measurement set exported to CI_Tau_SB_EB0_initcont_cent.vis.npz
+#Measurement set exported to CI_Tau_LB_EB0_initcont_cent.vis.npz
+#Measurement set exported to CI_Tau_LB_EB1_initcont_cent.vis.npz
+#The ratio of the fluxes of CI_Tau_SB_EB0_initcont_cent.vis.npz to CI_Tau_LB_EB1_initcont_cent.vis.npz is 0.97190
+#The scaling factor for gencal is 0.986 for your comparison measurement
+#The error on the weighted mean ratio is 3.363e-03, although it's likely that the weights in the measurement sets are off by some constant factor
+#The ratio of the fluxes of CI_Tau_LB_EB0_initcont_cent.vis.npz to CI_Tau_LB_EB1_initcont_cent.vis.npz is 1.02945
+#The scaling factor for gencal is 1.015 for your comparison measurement
+#The error on the weighted mean ratio is 4.912e-03, although it's likely that the weights in the measurement sets are off by some constant factor
+#Splitting out rescaled values into new MS: CI_Tau_SB_EB0_initcont_cent_rescaled.ms
+#Splitting out rescaled values into new MS: CI_Tau_LB_EB0_initcont_cent_rescaled.ms
+2022-10-20 02:05:13	WARN	MSTransformManager::checkCorrelatorPreaveragingThe data has already been preaveraged by the correlator but further smoothing or averaging has been requested. Preaveraged SPWs are: 0 1 2 3 
+#Measurement set exported to CI_Tau_SB_EB0_initcont_cent_rescaled.vis.npz
+#Measurement set exported to CI_Tau_LB_EB0_initcont_cent_rescaled.vis.npz
+#The ratio of the fluxes of CI_Tau_SB_EB0_initcont_cent_rescaled.vis.npz to CI_Tau_LB_EB1_initcont_cent.vis.npz is 0.99970
+#The scaling factor for gencal is 1.000 for your comparison measurement
+#The error on the weighted mean ratio is 3.459e-03, although it's likely that the weights in the measurement sets are off by some constant factor
+#The ratio of the fluxes of CI_Tau_LB_EB0_initcont_cent_rescaled.vis.npz to CI_Tau_LB_EB1_initcont_cent.vis.npz is 0.99925
+#The scaling factor for gencal is 1.000 for your comparison measurement
+#The error on the weighted mean ratio is 4.768e-03, although it's likely that the weights in the measurement sets are off by some constant factor
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_p0.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 17.07 mJy
+#Peak intensity of source: 1.31 mJy/beam
+#rms: 5.97e-03 mJy/beam
+#Peak SNR: 219.29
+1 of 76 solutions flagged due to SNR < 4 in spw=1 at 2019/06/27/12:56:19.4
+2 of 78 solutions flagged due to SNR < 4 in spw=3 at 2019/06/27/12:56:16.2
+5 of 82 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:56:26.3
+6 of 88 solutions flagged due to SNR < 4 in spw=5 at 2019/07/04/14:56:29.1
+3 of 86 solutions flagged due to SNR < 4 in spw=6 at 2019/07/04/14:56:34.0
+1 of 88 solutions flagged due to SNR < 4 in spw=7 at 2019/07/04/14:56:36.7
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p1.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 17.05 mJy
+#Peak intensity of source: 1.31 mJy/beam
+#rms: 5.97e-03 mJy/beam
+#Peak SNR: 219.02
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:26:13.5
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:33:38.2
+22 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:35:45.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:39:34.6
+20 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:42:38.4
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:46:53.7
+35 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:49:59.5
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:53:14.4
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:56:52.8
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:01:54.2
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:04:19.6
+2 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:08:41.0
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:12:06.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:15:43.2
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:22:59.2
+34 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:25:01.1
+3 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:28:29.6
+36 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:31:30.1
+25 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:22:39.8
+3 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:26:20.0
+35 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:29:27.4
+4 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:32:50.0
+33 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:36:04.7
+3 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:40:11.2
+4 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:46:59.2
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:50:21.9
+6 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:54:07.4
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:57:31.7
+4 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:01:17.4
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:04:51.6
+6 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:09:20.2
+26 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:12:28.6
+8 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:16:02.8
+11 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:23:14.7
+34 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:25:29.0
+7 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:29:03.4
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p2.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 17.11 mJy
+#Peak intensity of source: 1.32 mJy/beam
+#rms: 5.98e-03 mJy/beam
+#Peak SNR: 220.85
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:24:46.3
+31 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:26:21.0
+9 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:28:15.6
+21 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:30:08.0
+8 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:31:50.7
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:34:15.5
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:36:07.9
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:38:30.3
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:40:43.1
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:42:35.4
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:45:19.7
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:47:10.4
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:49:14.1
+20 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:51:06.4
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:52:59.0
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:56:32.4
+22 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:58:20.3
+5 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:00:21.7
+22 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:02:11.4
+11 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:03:50.5
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:06:13.6
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:08:27.0
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:11:38.4
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:13:28.6
+8 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:15:38.4
+34 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:17:11.0
+6 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:19:03.2
+23 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:20:53.1
+13 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:22:31.0
+22 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:24:48.0
+9 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:26:51.1
+7 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:29:57.2
+32 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:22:30.7
+30 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:22:47.9
+7 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:24:45.6
+28 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:26:38.1
+6 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:28:42.7
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:31:00.2
+16 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:33:28.1
+12 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:36:31.4
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:38:41.6
+9 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:40:54.5
+28 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:42:47.0
+11 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:45:24.2
+26 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:47:32.6
+6 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:49:41.7
+28 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:51:34.6
+12 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:53:43.2
+11 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:57:06.8
+29 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:58:57.9
+7 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:01:01.7
+26 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:02:54.2
+14 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:04:47.2
+26 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:06:52.1
+8 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:09:40.2
+32 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:11:16.5
+15 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:13:12.5
+27 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:15:04.8
+11 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:17:40.7
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:19:49.3
+13 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:21:38.4
+13 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:24:46.0
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:27:06.4
+7 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:29:19.5
+24 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:31:11.8
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p3.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 16.99 mJy
+#Peak intensity of source: 1.32 mJy/beam
+#rms: 5.98e-03 mJy/beam
+#Peak SNR: 219.90
+20 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:23:34.3
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:24:41.8
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:25:59.8
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:27:18.9
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:28:37.9
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:29:56.9
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:31:15.9
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:32:21.0
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:34:14.5
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:35:32.5
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:36:42.5
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:38:27.4
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:39:46.3
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:41:05.3
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:42:24.3
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:44:21.3
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:45:39.3
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:46:58.3
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:48:17.3
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:49:36.3
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:50:55.4
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:52:13.2
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:53:45.0
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:55:32.4
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:56:48.8
+11 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:58:06.1
+13 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/12:59:23.8
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:00:41.6
+13 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:01:58.9
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:03:15.6
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:04:21.0
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:06:12.6
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:07:29.7
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:09:23.3
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:10:40.7
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:11:58.1
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:13:16.1
+16 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:14:33.5
+13 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:16:31.6
+31 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:17:09.0
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:18:05.2
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:19:22.6
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:20:40.3
+17 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:21:58.1
+19 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:23:14.7
+21 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:24:49.5
+15 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:25:56.3
+14 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:27:49.1
+18 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:29:05.5
+13 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:30:23.2
+31 of 39 solutions flagged due to SNR < 4 in spw=0 at 2019/06/27/13:31:22.8
+25 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:22:39.8
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:23:48.9
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:25:08.0
+16 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:26:27.1
+15 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:27:46.1
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:29:05.2
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:30:24.6
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:31:22.4
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:32:32.6
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:34:25.4
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:35:43.9
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:37:29.3
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:38:39.0
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:39:57.9
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:41:17.0
+18 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:42:36.2
+22 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:44:36.1
+34 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:45:13.6
+22 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:46:11.6
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:47:30.7
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:48:49.8
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:50:08.9
+25 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:51:27.5
+25 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:53:00.9
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:54:10.4
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:56:08.6
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:57:26.9
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/14:58:46.1
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:00:05.0
+15 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:01:24.0
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:02:43.3
+25 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:04:02.3
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:04:59.1
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:06:41.9
+28 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:08:27.7
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:09:37.3
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:10:56.7
+18 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:12:15.6
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:13:34.5
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:14:53.7
+18 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:16:52.8
+33 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:17:30.3
+24 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:18:28.3
+20 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:19:47.6
+19 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:21:06.7
+22 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:22:25.5
+24 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:23:58.8
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:25:09.0
+23 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:27:04.3
+21 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:28:22.6
+18 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:29:41.8
+17 of 45 solutions flagged due to SNR < 4 in spw=4 at 2019/07/04/15:31:00.8
+1 of 39 solutions flagged due to SNR < 4 in spw=8 at 2021/07/03/11:52:14.5
+1 of 39 solutions flagged due to SNR < 4 in spw=8 at 2021/07/03/12:15:53.4
+2 of 39 solutions flagged due to SNR < 4 in spw=8 at 2021/07/03/12:18:38.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p4.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 17.02 mJy
+#Peak intensity of source: 1.33 mJy/beam
+#rms: 5.96e-03 mJy/beam
+#Peak SNR: 222.71
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p4.image.tt0
+#Beam 0.151 arcsec x 0.071 arcsec (25.47 deg)
+#Flux inside disk mask: 16.52 mJy
+#Peak intensity of source: 1.36 mJy/beam
+#rms: 5.90e-03 mJy/beam
+#Peak SNR: 229.55
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_ap0.image.tt0
+#Beam 0.136 arcsec x 0.066 arcsec (22.89 deg)
+#Flux inside disk mask: 16.48 mJy
+#Peak intensity of source: 1.24 mJy/beam
+#rms: 5.66e-03 mJy/beam
+#Peak SNR: 218.75
