@@ -1,0 +1,1064 @@
+fz258@calx061$ cd /data/discsim2/fz258/scienceB7_calibration/
+fz258@calx061$ ./../casa/casa-6.4.3-27/bin/casa
+
+optional configuration file config.py not found, continuing CASA startup without it
+
+IPython 7.15.0 -- An enhanced Interactive Python.
+
+Using matplotlib backend: TkAgg
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+--> CrashReporter initialized.
+CASA 6.4.3.27 -- Common Astronomy Software Applications [6.4.3.27]
+
+CASA <1>: execfile('selfcal_init.py')                                           
+pytz is not available in this python (used by au.mjdToLocalTime)
+imported casatasks and casatools individually
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+# Flagchannels input string for LB_EB0: '25:1268~1313, 27:697~744, 29:1095~1142'
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+#Averaged continuum dataset saved to CI_Tau_flagtest_LB_EB0_initcont.ms
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+2022-10-19 12:55:43	WARN	flagmanager::FlagVersion::saveFlagVersion	Deleting version: before_cont_flags
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+#Averaged continuum dataset saved to CI_Tau_LB_EB0_initcont.ms
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+# Flagchannels input string for LB_EB1: '25:1268~1313, 27:697~744, 29:1095~1142'
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+#Averaged continuum dataset saved to CI_Tau_flagtest_LB_EB1_initcont.ms
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+2022-10-19 14:14:39	WARN	flagmanager::FlagVersion::saveFlagVersion	Deleting version: before_cont_flags
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+#Averaged continuum dataset saved to CI_Tau_LB_EB1_initcont.ms
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_p0.image.tt0
+#Beam 0.162 arcsec x 0.088 arcsec (-44.07 deg)
+#Flux inside disk mask: 404.82 mJy
+#Peak intensity of source: 19.06 mJy/beam
+#rms: 1.02e-01 mJy/beam
+#Peak SNR: 187.67
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_initcont_p1.image.tt0
+#Beam 0.162 arcsec x 0.088 arcsec (-44.07 deg)
+#Flux inside disk mask: 410.82 mJy
+#Peak intensity of source: 19.22 mJy/beam
+#rms: 8.54e-02 mJy/beam
+#Peak SNR: 224.90
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_p0.image.tt0
+#Beam 0.127 arcsec x 0.094 arcsec (-26.62 deg)
+#Flux inside disk mask: 423.15 mJy
+#Peak intensity of source: 19.39 mJy/beam
+#rms: 8.44e-02 mJy/beam
+#Peak SNR: 229.83
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_initcont_p1.image.tt0
+#Beam 0.127 arcsec x 0.094 arcsec (-26.61 deg)
+#Flux inside disk mask: 430.12 mJy
+#Peak intensity of source: 19.42 mJy/beam
+#rms: 6.94e-02 mJy/beam
+#Peak SNR: 279.89
+04h33m52.025496s +22d50m29.79382s
+#Peak of Gaussian component identified with imfit: ICRS 04h33m52.025496s +22d50m29.79382s
+04:33:52.025496 +22:50:29.79382
+Separation: radian = 7.30197e-08, degrees = 0.000004 = 4.18372e-06, arcsec = 0.015061 = 0.0150614
+#Peak in J2000 coordinates: 04:33:52.02611, +022:50:29.781378
+#PA of Gaussian component: 123.72 deg
+#Inclination of Gaussian component: 31.75 deg
+#Pixel coordinates of peak: x = 1164.133 y = 1190.167
+04h33m52.026016s +22d50m29.78545s
+#Peak of Gaussian component identified with imfit: ICRS 04h33m52.026016s +22d50m29.78545s
+04:33:52.026016 +22:50:29.78545
+Separation: radian = 7.30197e-08, degrees = 0.000004 = 4.18372e-06, arcsec = 0.015061 = 0.0150614
+#Peak in J2000 coordinates: 04:33:52.02663, +022:50:29.773008
+#PA of Gaussian component: 108.36 deg
+#Inclination of Gaussian component: 39.59 deg
+#Pixel coordinates of peak: x = 1163.316 y = 1189.216
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB0_initcont_cent.ms.image.tt0
+#Beam 0.162 arcsec x 0.088 arcsec (-44.07 deg)
+#Flux inside disk mask: 415.89 mJy
+#Peak intensity of source: 19.21 mJy/beam
+#rms: 8.04e-02 mJy/beam
+#Peak SNR: 238.89
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_EB1_initcont_cent.ms.image.tt0
+#Beam 0.127 arcsec x 0.094 arcsec (-26.61 deg)
+#Flux inside disk mask: 438.17 mJy
+#Peak intensity of source: 19.45 mJy/beam
+#rms: 7.14e-02 mJy/beam
+#Peak SNR: 272.35
+04h33m52.026630s +22d50m29.77297s
+#Peak of Gaussian component identified with imfit: J2000 04h33m52.026630s +22d50m29.77297s
+#PA of Gaussian component: 99.87 deg
+#Inclination of Gaussian component: 31.42 deg
+#Pixel coordinates of peak: x = 1200.001 y = 1199.996
+04h33m52.026622s +22d50m29.77305s
+#Peak of Gaussian component identified with imfit: J2000 04h33m52.026622s +22d50m29.77305s
+#PA of Gaussian component: 100.96 deg
+#Inclination of Gaussian component: 43.80 deg
+#Pixel coordinates of peak: x = 1200.012 y = 1200.004
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 333.173000 = 1.268816 +- 0.077971 (scaled MAD = 0.076976)
+Result using spectral index of -0.443796 for 333.173 GHz from 2.195 Jy at 97.475 GHz = 1.272174 +- 0.077971 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 330.727000 = 1.272827 +- 0.077882 (scaled MAD = 0.077496)
+Result using spectral index of -0.443796 for 330.727 GHz from 2.195 Jy at 97.475 GHz = 1.276342 +- 0.077882 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 342.976000 = 1.254018 +- 0.079044 (scaled MAD = 0.077804)
+Result using spectral index of -0.443796 for 342.976 GHz from 2.195 Jy at 97.475 GHz = 1.255907 +- 0.079044 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 345.694000 = 1.249277 +- 0.078753 (scaled MAD = 0.077983)
+Result using spectral index of -0.443796 for 345.694 GHz from 2.195 Jy at 97.475 GHz = 1.251515 +- 0.078753 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 333.173000 = 1.268481 +- 0.077894 (scaled MAD = 0.076575)
+Result using spectral index of -0.443796 for 333.173 GHz from 2.195 Jy at 97.475 GHz = 1.272174 +- 0.077894 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 330.727000 = 1.275273 +- 0.077313 (scaled MAD = 0.077757)
+Result using spectral index of -0.443796 for 330.727 GHz from 2.195 Jy at 97.475 GHz = 1.276342 +- 0.077313 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 342.976000 = 1.252641 +- 0.078928 (scaled MAD = 0.078442)
+Result using spectral index of -0.443796 for 342.976 GHz from 2.195 Jy at 97.475 GHz = 1.255907 +- 0.078928 Jy
+  Closest Band 3 measurement: 2.140 +- 0.050 (age=+3 days) 103.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 3 measurement: 2.250 +- 0.040 (age=+3 days) 91.5 GHz (will extrapolate from this datum using spectral index)
+  Closest Band 7 measurement: 1.250 +- 0.080 (age=+2 days) 343.5 GHz 
+number of measurements used in low/high bands = 2 / 1
+getALMAFluxCSV(Cycle6): Fitting for spectral index with 1 measurement pair of age +2.5 days from 2017/12/11, with age separation of 1 days
+  2017/12/08 -- 2017/12/09: freqs=[103.49, 91.46, 343.48], fluxes=[2.14, 2.25, 1.25], errors=[0.05, 0.04, 0.08]
+Median Monte-Carlo result for 345.694000 = 1.249775 +- 0.079194 (scaled MAD = 0.078834)
+Result using spectral index of -0.443796 for 345.694 GHz from 2.195 Jy at 97.475 GHz = 1.251515 +- 0.079194 Jy
+#Measurement set exported to CI_Tau_LB_EB0_initcont_cent.vis.npz
+#Measurement set exported to CI_Tau_LB_EB1_initcont_cent.vis.npz
+#The ratio of the fluxes of CI_Tau_LB_EB1_initcont_cent.vis.npz to CI_Tau_LB_EB0_initcont_cent.vis.npz is 1.03281
+#The scaling factor for gencal is 1.016 for your comparison measurement
+#The error on the weighted mean ratio is 7.513e-04, although it's likely that the weights in the measurement sets are off by some constant factor
+#Splitting out rescaled values into new MS: CI_Tau_LB_EB1_initcont_cent_rescaled.ms
+#Measurement set exported to CI_Tau_LB_EB1_initcont_cent_rescaled.vis.npz
+#The ratio of the fluxes of CI_Tau_LB_EB1_initcont_cent_rescaled.vis.npz to CI_Tau_LB_EB0_initcont_cent.vis.npz is 1.00054
+#The scaling factor for gencal is 1.000 for your comparison measurement
+#The error on the weighted mean ratio is 7.278e-04, although it's likely that the weights in the measurement sets are off by some constant factor
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_p0.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 420.80 mJy
+#Peak intensity of source: 18.84 mJy/beam
+#rms: 5.79e-02 mJy/beam
+#Peak SNR: 325.62
+1 of 84 solutions flagged due to SNR < 4 in spw=5 at 2017/12/11/05:47:44.9
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p1.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 421.40 mJy
+#Peak intensity of source: 18.85 mJy/beam
+#rms: 5.48e-02 mJy/beam
+#Peak SNR: 343.74
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:14:11.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:24:06.9
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:04.8
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:45.6
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:42.0
+18 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:34.1
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:22.9
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:33.2
+4 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:51.8
+1 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:58:45.0
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:02:00.0
+22 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:09:22.6
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:07.0
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:23:00.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p2.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 420.38 mJy
+#Peak intensity of source: 19.03 mJy/beam
+#rms: 5.63e-02 mJy/beam
+#Peak SNR: 338.13
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:51:03.8
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:43.4
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:04:04.0
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:41.7
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:12:30.2
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:24:13.0
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:36:59.7
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:52.6
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:44.6
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:49.3
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:38.8
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:57:16.9
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:42.0
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:36.8
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:38.9
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:39:16.7
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:43:07.5
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:45:35.5
+1 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:24.9
+4 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:50:16.4
+1 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:59.8
+3 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:42.5
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:27.1
+3 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:07.6
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:58.4
+2 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:04:45.8
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:36.2
+1 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:41.3
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:27.6
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:33.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:56.3
+1 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:53.7
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:47.8
+2 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:31.9
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p3.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 423.24 mJy
+#Peak intensity of source: 19.41 mJy/beam
+#rms: 5.26e-02 mJy/beam
+#Peak SNR: 368.80
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:29.7
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:57:07.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:04.3
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:27.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:23:59.1
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:24.1
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:45.9
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:56.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:20.2
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:26.8
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:42.0
+1 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:20:51.2
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:22:08.0
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:24.6
+1 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:41.6
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:25:58.4
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:27:57.1
+1 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:15.8
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:30:14.4
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:31:51.6
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:09.9
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:26.7
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:29.1
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:37:47.6
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:39:04.5
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:21.4
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:38.2
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:42:55.5
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:44:07.3
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:20.9
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:30.3
+7 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:47.2
+2 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:50:04.2
+4 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:21.2
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:38.5
+2 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:40.9
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:18.6
+4 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:15.8
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:24.0
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:59:10.8
+7 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:29.0
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:46.1
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:03:48.2
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:05:06.4
+7 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:24.0
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:41.1
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:58.7
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:15.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:11:53.9
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:27.7
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:38.6
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:15:58.2
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:17.9
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:37.6
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:38.5
+6 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:58.8
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:23:00.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p4.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 425.62 mJy
+#Peak intensity of source: 19.90 mJy/beam
+#rms: 5.01e-02 mJy/beam
+#Peak SNR: 397.06
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:48:13.2
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:48:31.3
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:49:12.6
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:50:31.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:50:54.7
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:51:45.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:52:11.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:53:01.2
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:53:27.1
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:17.5
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:43.4
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:56:45.3
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:57:07.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:58:17.9
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:08.2
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:34.2
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:01:31.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:21.9
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:47.8
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:04:04.0
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:06:08.4
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:06:59.8
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:07:25.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:15.9
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:41.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:09:32.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:09:58.0
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:10:48.2
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:11:14.1
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:12:30.2
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:13:58.9
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:14:17.0
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:17:55.9
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:18:42.9
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:08.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:59.0
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:20:24.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:15.0
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:40.9
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:22:31.0
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:22:57.0
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:23:47.0
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:24:13.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:27:03.8
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:27:31.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:21.1
+15 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:37.9
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:30:38.9
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:31:51.8
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:32:41.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:07.8
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:58.0
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:34:23.9
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:37:04.3
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:37:54.6
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:38:20.4
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:10.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:36.5
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:26.8
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:52.6
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:42.9
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:59.7
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:05.6
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:35.6
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:56.7
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:46:49.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:47:17.2
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:07.8
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:33.5
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:24.1
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:49.3
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:50:40.4
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:51:06.2
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:51:56.7
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:52:22.5
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:13.0
+1 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:17.2
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:35.4
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:06.7
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:48.8
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:31.4
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:49.5
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:20:39.1
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:21:04.8
+2 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:21:55.9
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:22:21.6
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:12.7
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:38.4
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:29.4
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:55.2
+4 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:25:46.3
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:26:12.0
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:27:45.2
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:28:12.4
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:03.6
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:29.3
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:30:14.4
+3 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:31:39.6
+5 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:32:06.6
+6 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:32:57.8
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:23.5
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:14.7
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:40.4
+6 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:17.0
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:44.2
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:37:35.5
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:38:01.2
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:38:52.4
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:39:18.2
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:09.5
+7 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:35.0
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:26.3
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:52.1
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:42:43.5
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:43:09.0
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:44:07.3
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:17.6
+18 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:35.7
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:17.9
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:43.8
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:35.1
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:49:00.8
+10 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:49:52.1
+4 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:50:17.9
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:09.2
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:35.0
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:26.4
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:52.1
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:25.7
+5 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:56.2
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:18.6
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:03.9
+10 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:29.6
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:21.0
+19 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:37.7
+10 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:58:58.8
+10 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:59:25.6
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:17.1
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:42.6
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:34.1
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:02:00.0
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:03:36.1
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:04:03.3
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:04:54.7
+10 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:05:20.1
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:11.8
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:37.7
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:29.0
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:54.8
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:46.4
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:09:12.1
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:03.4
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:29.1
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:11:53.9
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:24.7
+18 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:42.7
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:26.4
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:53.3
+9 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:15:46.0
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:13.0
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:05.9
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:32.6
+8 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:25.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:52.3
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:26.5
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:53.7
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:46.8
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:22:13.4
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:23:00.2
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p5.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 428.31 mJy
+#Peak intensity of source: 20.07 mJy/beam
+#rms: 4.95e-02 mJy/beam
+#Peak SNR: 405.51
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:48:05.6
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:48:20.8
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:48:31.3
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:49:04.9
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:49:18.9
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:49:34.0
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:49:46.0
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:50:24.2
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:50:35.0
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:50:50.2
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:51:02.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:51:37.4
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:51:51.3
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:52:06.4
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:52:18.5
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:52:53.6
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:53:07.5
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:53:22.6
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:53:34.7
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:09.8
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:23.7
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:38.9
+15 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:54:51.0
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:56:07.2
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:56:22.3
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:56:37.5
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:56:53.2
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:57:07.7
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:57:44.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:57:58.2
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:58:13.4
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:58:25.5
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:00.6
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:14.5
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:29.6
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/03:59:41.7
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:00:57.0
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:01:12.0
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:01:27.1
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:01:39.2
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:14.2
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:28.2
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:43.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:02:55.4
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:03:30.4
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:03:44.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:03:59.4
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:04:11.5
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:05:34.8
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:05:49.9
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:06:05.1
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:06:16.1
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:06:52.1
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:07:06.1
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:07:21.2
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:07:33.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:08.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:22.2
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:37.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:08:49.3
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:09:24.4
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:09:38.3
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:09:53.4
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:10:05.5
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:10:40.5
+2 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:10:54.5
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:11:09.6
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:11:21.7
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:11:56.7
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:12:10.6
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:12:25.7
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:12:37.8
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:13:51.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:14:06.5
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:14:17.0
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:17:54.4
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:18:03.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:18:35.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:18:49.2
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:04.3
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:16.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:19:51.3
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:20:05.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:20:20.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:20:32.5
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:07.4
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:21.3
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:36.4
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:21:48.5
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:22:23.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:22:37.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:22:52.4
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:23:04.5
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:23:39.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:23:53.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:24:08.5
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:24:20.6
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:26:56.2
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:27:11.3
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:27:26.5
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:27:38.6
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:13.4
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:27.3
+15 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:28:37.9
+3 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:30:37.4
+16 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:30:46.3
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:31:18.2
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:31:32.1
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:31:47.3
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:31:59.4
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:32:34.3
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:32:48.2
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:03.3
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:15.4
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:33:50.3
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:34:04.2
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:34:19.3
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:34:31.4
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:36:29.5
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:36:44.6
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:36:59.7
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:37:11.8
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:37:47.0
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:38:00.8
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:38:15.9
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:38:28.0
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:03.1
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:16.9
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:32.0
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:39:44.1
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:19.2
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:33.0
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:40:48.1
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:00.2
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:35.3
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:49.1
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:41:59.7
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:43:58.0
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:12.9
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:28.0
+4 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:43.1
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:44:56.7
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:46:42.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:46:57.5
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:47:12.6
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:47:24.7
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:00.2
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:13.8
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:29.0
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:48:41.1
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:16.5
+5 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:30.2
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:45.3
+12 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:49:56.9
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:50:32.8
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:50:46.5
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:51:01.6
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:51:13.7
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:51:49.1
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:52:02.8
+10 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:52:17.9
+9 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:52:30.0
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:05.5
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:19.1
+6 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:34.2
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:53:46.3
+11 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:09.7
+7 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:24.8
+14 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:56:35.4
+8 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:05.8
+15 of 35 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:14.7
+13 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:47.3
+17 of 42 solutions flagged due to SNR < 4 in spw=0 at 2017/12/11/04:58:54.9
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:31.4
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:46.5
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:19:57.1
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:20:31.5
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:20:45.1
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:21:00.3
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:21:12.4
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:21:48.3
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:22:01.9
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:22:17.1
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:22:29.2
+8 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:05.1
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:18.7
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:33.9
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:23:46.0
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:21.9
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:35.6
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:24:50.7
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:25:02.8
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:25:38.7
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:25:52.3
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:26:07.5
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:26:19.6
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:27:37.6
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:27:52.8
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:28:07.9
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:28:20.0
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:28:56.0
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:09.7
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:24.8
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:29:36.9
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:30:12.9
+21 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:30:20.5
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:31:32.2
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:31:47.0
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:32:02.1
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:32:14.2
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:32:50.2
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:03.9
+9 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:19.0
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:33:31.1
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:07.1
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:20.8
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:35.9
+15 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:34:48.0
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:09.4
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:24.5
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:39.7
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:36:51.8
+14 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:37:27.9
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:37:41.5
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:37:56.7
+15 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:38:08.8
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:38:44.8
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:38:58.5
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:39:13.7
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:39:25.8
+14 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:01.9
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:15.5
+10 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:30.6
+16 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:40:42.6
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:18.8
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:32.5
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:47.6
+16 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:41:59.7
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:42:35.9
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:42:49.5
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:43:04.6
+16 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:43:16.5
+11 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:44:05.8
+20 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:44:14.9
+15 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:10.0
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:25.1
+18 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:46:35.7
+13 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:10.3
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:24.1
+12 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:39.2
+14 of 42 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:47:51.3
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:27.5
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:41.2
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:48:56.3
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:49:08.4
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:49:44.6
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:49:58.2
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:50:13.4
+16 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:50:25.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:01.6
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:15.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:30.5
+16 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:51:42.5
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:18.8
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:32.4
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:47.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:52:59.6
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:18.1
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:33.2
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:54:48.4
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:04.1
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:18.6
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:55:56.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:10.0
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:25.1
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:56:37.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:13.4
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:27.1
+19 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:57:37.7
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:58:51.2
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:59:06.0
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:59:21.1
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/05:59:33.2
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:09.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:23.2
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:38.3
+17 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:00:50.1
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:26.6
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:40.3
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:01:55.5
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:02:07.6
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:03:28.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:03:43.6
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:03:58.7
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:04:10.8
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:04:47.2
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:05:00.8
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:05:15.9
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:05:27.7
+16 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:04.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:18.0
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:33.1
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:06:45.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:21.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:35.2
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:07:50.3
+17 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:02.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:38.7
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:08:52.4
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:09:07.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:09:19.6
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:09:55.9
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:09.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:24.6
+16 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:10:36.7
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:11:52.4
+20 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:12:01.5
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:17.1
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:32.1
+18 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:13:42.7
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:19.0
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:33.6
+12 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:14:48.7
+16 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:15:00.8
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:15:38.5
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:15:53.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:08.4
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:20.5
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:16:58.4
+11 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:13.0
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:28.1
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:17:40.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:18.0
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:32.7
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:47.8
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:18:59.9
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:18.9
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:34.0
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:20:49.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:01.3
+13 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:39.2
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:21:53.7
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:22:08.9
+15 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:22:21.0
+14 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:22:58.7
+21 of 41 solutions flagged due to SNR < 4 in spw=4 at 2017/12/11/06:23:07.4
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p6.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 430.34 mJy
+#Peak intensity of source: 20.19 mJy/beam
+#rms: 4.93e-02 mJy/beam
+#Peak SNR: 409.43
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_p6.image.tt0
+#Beam 0.135 arcsec x 0.092 arcsec (-35.43 deg)
+#Flux inside disk mask: 431.77 mJy
+#Peak intensity of source: 20.16 mJy/beam
+#rms: 4.78e-02 mJy/beam
+#Peak SNR: 421.98
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+NOTICE: Exporting to images in screen resolution is currently not working.  Switching to high resolution (which is slower, but works).
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+#CI_Tau_LB_initcont_ap0.image.tt0
+#Beam 0.133 arcsec x 0.092 arcsec (-34.67 deg)
+#Flux inside disk mask: 429.45 mJy
+#Peak intensity of source: 19.90 mJy/beam
+#rms: 3.91e-02 mJy/beam
+#Peak SNR: 508.44
